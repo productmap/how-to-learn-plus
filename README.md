@@ -10,3 +10,4 @@
 
 - Еремин Владислав
 - ceo@rocket.name
+- https://t.me/brandevangelist
