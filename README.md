@@ -1,10 +1,11 @@
 # Проектная работа "Научиться учиться"
 
+В рамках данной проектной работы были закреплены полученные в результате обучения на курсе "Веб-разработчик плюс" навыки по HTML, CSS, BEM.
+
 ### Технологии
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-<img src="https://img-fotki.yandex.ru/get/5405/259818507.0/0_130be5_948d59aa_S" alt="BEM" width="40" height="40" style="background-color: #ffdb4d"/>
+![css3](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg) ![html5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg) ![BEM](https://img-fotki.yandex.ru/get/5405/259818507.0/0_130be5_948d59aa_S)
+
 
 ### Контакты
 
