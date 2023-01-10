@@ -1,0 +1,6 @@
+.cards__image_type_attention {
+    background-image: url("../../../../images/cards-attention.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

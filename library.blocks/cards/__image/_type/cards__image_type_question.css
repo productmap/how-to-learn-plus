@@ -1,0 +1,6 @@
+.cards__image_type_question {
+    background-image: url("../../../../images/cards-question.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

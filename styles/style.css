@@ -1,31 +1,63 @@
+/* Общие компоненты */
+@import "../library.blocks/logo/logo.css";
+@import "../library.blocks/section/section.css";
+@import "../library.blocks/section/section-title/section-title.css";
+@import "../library.blocks/section/section-subtitle/section-subtitle.css";
+@import "../library.blocks/two-columns/two-columns.css";
+@import "../library.blocks/cards/cards.css";
+@import "../library.blocks/table/table.css";
+/* Компоненты страницы */
+@import "../common.blocks/page/header/header.css";
+@import "../common.blocks/page/description/description.css";
+@import "../common.blocks/page/techniques/techniques.css";
+@import "../common.blocks/page/video/video.css";
+@import "../common.blocks/page/oakley/oakley.css";
+@import "../common.blocks/page/feynman/feynman.css";
+@import "../common.blocks/page/digits/digits.css";
+@import "../common.blocks/page/kaufman/kaufman.css";
+@import "../common.blocks/page/khan/khan.css";
+@import "../common.blocks/page/resources/resources.css";
+@import "../common.blocks/page/footer/footer.css";
+@import "../common.blocks/page/rotation/rotation.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
 .page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+    min-width: 1100px;
+    max-width: 1600px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Regular.woff') format('woff'),
+    url('../fonts/Inter/Inter-Regular.woff2') format('woff2');
+    font-weight: normal;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-SemiBold.woff') format('woff'),
+    url('../fonts/Inter/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 600;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Bold.woff') format('woff'),
+    url('../fonts/Inter/Inter-Bold.woff2') format('woff2');
+    font-weight: 700;
 }
