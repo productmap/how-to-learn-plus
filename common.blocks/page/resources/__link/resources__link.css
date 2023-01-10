@@ -1,9 +1,0 @@
-@import "_resources/resources__link_resources-arzamas.css";
-@import "_resources/resources__link_resources-n1.css";
-@import "_resources/resources__link_resources-strelka.css";
-@import "_resources/resources__link_resources-polka.css";
-
-.resources__link {
-    width: 280px;
-    height: 38px;
-}

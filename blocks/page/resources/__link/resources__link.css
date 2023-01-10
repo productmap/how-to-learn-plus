@@ -1,0 +1,13 @@
+.resources__link {
+  width: 280px;
+  height: 38px;
+  text-align: center;
+  vertical-align: center;
+  opacity: 1;
+  transition: ease .5s;
+}
+
+.resources__link:hover {
+  opacity: .7;
+  transition: ease .5s;
+}

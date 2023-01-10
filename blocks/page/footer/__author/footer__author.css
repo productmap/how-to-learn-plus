@@ -1,0 +1,12 @@
+.footer__author {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #f1f1f1;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.footer__author::before {
+  content: '© ';
+}

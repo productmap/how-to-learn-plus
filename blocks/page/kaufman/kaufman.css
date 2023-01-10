@@ -1,0 +1,17 @@
+.kaufman {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+}
+
+.kaufman .table {
+  grid-template-columns: repeat(5, 1fr);
+  column-width: 200px;
+  column-gap: 25px;
+  row-gap: 80px;
+  color: #f1f1f1;
+  padding-top: 80px;
+}
