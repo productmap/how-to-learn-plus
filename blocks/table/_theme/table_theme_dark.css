@@ -1,0 +1,8 @@
+.table_theme_dark {
+  color: #fff;
+  z-index: 2;
+  grid-template-columns: repeat(5, 1fr);
+  column-width: 200px;
+  column-gap: 25px;
+  row-gap: 80px;
+}
