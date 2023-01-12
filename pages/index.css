@@ -1,5 +1,8 @@
 @import "../vendor/normalize.css";
 
+/* Шрифты */
+@import "../fonts/fonts.css";
+
 /* Блок Page */
 @import "../blocks/page/page.css";
 
@@ -97,6 +100,7 @@
 @import "../blocks/resources/resources.css";
 @import "../blocks/resources/__logo-zone/resources__logo-zone.css";
 @import "../blocks/resources/__link/resources__link.css";
+@import "../blocks/resources/__logo/resources__logo.css";
 
 /* Блок Footer */
 @import "../blocks/footer/footer.css";
@@ -113,6 +117,3 @@
 @import "../blocks/footer/__social-icon/_type/footer__social-icon_type_youtube.css";
 @import "../blocks/footer/__social-icon/_type/footer__social-icon_type_vk.css";
 @import "../blocks/footer/__social-icon/_type/footer__social-icon_type_tiktok.css";
-
-/* Шрифты */
-@import "../fonts/fonts.css";
